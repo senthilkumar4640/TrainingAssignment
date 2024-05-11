@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <title>Metro Card Management</title>
+    <head>
+        <link rel="stylesheet" href="../Metro Card Management/StyleSheet/index.css">
+    </head>
+    <body>
+        <div class="index" id="homepage">
+            <div id="sign-in-up">
+                <div id="signup">
+                    <p onclick="SignUp()">Sign Up</p>
+                </div>
+                <div id="signin">
+                    <p onclick="SignIn()">Sign In</p>
+                </div><br>
+            </div>
+            <div class="signup" id="sign-up">
+                <h2 id="signup-heading">User Registration</h2>
+    
+                <input type="text" id="name" name="name" class="input" placeholder="Name"> <br>
+    
+                <input type="text" id="phn" name="phn" class="input" placeholder="Phone Number"> <br>
+    
+                <input type="password" id="pwd" name="pwd" class="input"  placeholder="Password"> <br>
+    
+                <input type="password" id="cnfpwd" name="cnfpwd" class="input"  placeholder="Confirm Password"> <br>
+    
+                <button id="submit" name="submit" class="button" onclick="SignUpSubmit()">Submit</button>
+            </div>
+            <div class="signin" id="sign-in">
+                <h2 id="signin-heading">User Login</h2>
+                <br>
+                 <input type="text" id="phn1" name="phn" class="input" placeholder="Phone Number"> <br>
+               
+                <input type="password" id="pwd1" name="pwd" class="input" placeholder="Password"> <br>
+
+                <button id="submit" name="submit" class="button" onclick="SignInSubmit()">Sign In</button>
+            </div>
+        </div>
+
+        <!-- MenuBar -->
+        <div class="menu" id="menubars">
+            <ol class="menubar">
+                <li id="home" onclick="Home()">Home</li>
+                <li id="ticket" onclick="Ticket()">Ticket</li>
+                <li id="travel" onclick="Travel()">Travel</li>
+                <li id="recharge" onclick="Recharge()">Recharge</li>
+                <li id="travel-history" onclick="TravelHistory()">Travel History</li>
+                <li id="show-balance" onclick="ShowBalance()">Show Balance</li>
+                <li id="logout"onclick="LogOut()">LogOut</li>
+            </ol>
+        </div>
+
+        <div id="home-tab">
+            <h2 id="welcome"></h2>
+        </div>
+
+        <div id="ticket-tab">
+            <button id="addtravel" onclick="AddButton()">Add</button>
+            <table id="ticket-table">
+            </table> 
+            <div id="add">
+            <h1 id="ticket-heading">Add Details</h1>
+            <input type="text" id="ticket-from" placeholder="From Location"><br>
+            <input type="text" id="ticket-to" placeholder="To Location"><br>
+            <input type="text" id="ticket-fair" placeholder="Ticket Fair"><br>
+            <button id="ticket-addbutton" id="submit1" onclick="AddSubmit()">Submit</button>
+            </div>
+
+            <div id="edit">
+                <h1 id="ticket-heading">Edit Details</h1>
+                <input type="text" id="ticket-from-edit" placeholder="From Location"><br>
+                <input type="text" id="ticket-to-edit" placeholder="To Location"><br>
+                <input type="text" id="ticket-fair-edit" placeholder="Ticket Fair"><br>
+                <button id="ticket-editbutton" id="submit2" onclick="EditSubmit()">Submit</button>
+                </div>
+        </div>
+
+        <div id="travel-tab">
+            <table id="travel-table">
+            </table> 
+        </div>
+
+        <div id="recharge-tab">
+            <h2>Enter the amount </h2>
+            <input type="number" id="recharge-amount" placeholder="Amount"><br>
+            <button id="rechargebutton" onclick="Deposit()">Submit</button>
+        </div>
+
+        <div id="travel-history-tab">
+            <table id="travel-history-table">
+            </table>
+        </div>
+
+        <div id="show-balance-tab">
+            <h2 id="balance"></h2>
+        </div>
+
+        <div id="logout-tab">
+            <h2 id="log-out">Do you need to logout?</h2>
+            <button id="yes" onclick="Yes()">Yes</button>
+            <button id="no" onclick="No()">No</button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="../Metro Card Management/TypeScript/index.js"></script>
+    </body>
+</html>
