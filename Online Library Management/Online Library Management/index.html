@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<title>Online Library Management</title>
+
+<head>
+    <link rel="stylesheet" href="../Online Library Management/StyleSheet/index.css">
+
+</head>
+
+<body>
+    <div class="index" id="homepage">
+        <div id="sign-in-up">
+            <div id="signup">
+                <p onclick="SignUp()">SIGN UP</p>
+            </div>
+            <div id="signin">
+                <p onclick="SignIn()">SIGN IN</p>
+            </div><br>
+        </div>
+
+        <div class="signup" id="sign-up">
+            <h2 id="signup-heading">User Registration</h2>
+
+            <input type="text" id="name" name="name" class="input" placeholder="Name"> <br>
+
+            <input type="text" id="gender" name="gender" class="input" placeholder="Gender"> <br>
+
+            <input type="text" id="department" name="department" class="input" placeholder="Department"> <br>
+
+            <input type="text" id="mobile" name="mobile" class="input" placeholder="Mobile Number"> <br>
+
+            <input type="email" id="email" name="email" class="input" placeholder="Email"> <br>
+
+            <input type="password" id="pwd" name="pwd" class="input" placeholder="Password"> <br>
+
+            <input type="password" id="cnfpwd" name="cnfpwd" class="input" placeholder="Confirm Password"> <br>
+
+            <button id="submit" name="submit" class="button" onclick="SignUpSubmit()">Submit</button>
+        </div>
+
+        <div class="signin" id="sign-in">
+            <h2 id="signin-heading">User Login</h2>
+            <br>
+            <input type="email" id="email1" name="email" class="input" placeholder="Email" value="senthil@gmail.com"> <br>
+
+            <input type="password" id="pwd1" name="pwd" class="input" placeholder="Password" value="11111"> <br>
+
+            <button id="submit" name="submit" class="button" onclick="SignInSubmit()">Sign In</button>
+        </div>
+    </div>
+
+    <!-- MenuBar -->
+    <div class="menu" id="menubars">
+        <ol class="menubar">
+            <li id="home" onclick="Home()">HOME</li>
+            <li id="book-details" onclick="BookDetails()">BOOK DETAILS</li>
+            <li id="borrow-book" onclick="BorrowBook()">BORROW BOOK</li>
+            <li id="borrow-history" onclick="BorrowHistory()">BORROW HISTORY</li>
+            <li id="return-books" onclick="ReturnBooks()">RETURN BOOKS</li>
+            <li id="wallet-recharge" onclick="WalletRecharge()">WALLET RECHARGE</li>
+            <li id="show-balance" onclick="ShowBalance()">SHOW BALANCE</li>
+            <li id="logout" onclick="LogOut()">LOGOUT</li>
+        </ol>
+    </div>
+
+    <div id="home-tab">
+        <h2 id="welcome"></h2>
+    </div>
+
+    <div id="book-details-tab">
+        <button id="addbook" onclick="AddButton()">ADD</button>
+        <form action="" id="form">
+            <table id="book-table"></table>
+            <div id="add">
+                <h1 id="book-heading-add">Add Details</h1>
+                <input type="text" id="book-name" placeholder="Book Name"><br>
+                <input type="text" id="author-name" placeholder="Author Name"><br>
+                <input type="text" id="book-count" placeholder="Book Count"><br>
+                <form action="" enctype="multipart/form-data">
+                    <input type="file" name="images" id="images">
+                </form>
+                <input type="submit" value="submit">
+            </div>
+           
+        </form>
+        <form action="" id="form">
+        <div id="edit">
+            <h1 id="book-heading-edit">Edit Details</h1>
+            <input type="text" id="book-name-edit" placeholder="Book Name"><br>
+            <input type="text" id="author-name-edit" placeholder="Author Name"><br>
+            <input type="text" id="book-count-edit" placeholder="Book Count"><br>
+            <form action="" enctype="multipart/form-data">
+                <input type="file" name="images" id="images">
+            </form>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+    </div>
+
+    <div id="borrow-book-tab">
+        <table id="borrow-table"></table>
+    </div>
+
+    <div id="borrow-history-tab">
+        <button id="export" onclick="Export()">EXPORT</button>
+        <table id="borrow-history-table"></table>
+    </div>
+
+    <div id="return-books-tab">
+        <table id="return-books-table"></table>
+    </div>
+
+    <div id="wallet-recharge-tab">
+        <h2>Enter the amount </h2>
+        <input type="number" id="wallet-recharge-amount" placeholder="Amount"><br>
+        <button id="rechargebutton" onclick="Deposit()">Submit</button>
+    </div>
+
+    <div id="show-balance-tab">
+        <h2 id="balance"></h2>
+    </div>
+
+    <div id="logout-tab">
+        <h2 id="log-out">Do you need to logout?</h2>
+        <button id="yes" onclick="Yes()">Yes</button>
+        <button id="no" onclick="No()">No</button>
+    </div>
+    <script type="text/javascript" src="../Online Library Management/TypeScript/index.js"></script>
+</body>
+
+</html>
