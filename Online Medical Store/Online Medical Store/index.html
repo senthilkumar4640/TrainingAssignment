@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <title>Online Medical Store</title>
+<head>
+   <link rel="stylesheet" href="../Online Medical Store/StyleSheet/index.css">
+</head>
+<body>
+    <div class="index" id="homepage">
+        <div id="sign-in-up">
+            <div id="signup">
+                <p onclick="SignUpPage()">Sign Up</p>
+            </div>
+            <div id="signin">
+                <p onclick="SignInPage()">Sign In</p>
+            </div><br>
+        </div>
+        <form class="signup" id="form">
+            <h2 id="signup-heading">User Registration</h2>
+
+            <input type="text" id="name" name="name" class="input" placeholder="Name"> <br>
+
+            <input type="email" id="email" name="email" class="input" placeholder="Email"> <br>
+
+            <input type="password" id="pwd" name="pwd" class="input"  placeholder=" Password"> <br>
+
+            <input type="password" id="cnfpwd" name="cnfpwd" class="input"  placeholder=" Confirm Password"> <br>
+
+            <button id="submit" name="submit" class="button" >Submit</button>
+        </form>
+       
+        <div class="signin" id="sign-in">
+            <h2 id="signup-heading">User Login</h2>
+
+
+            <input type="email" id="email1" name="email" class="input" placeholder="Email"> <br>
+
+            <input type="password" id="pwd1" name="pwd" class="input"  placeholder=" Password"> <br>
+
+            <button id="submit1" name="submit" class="button" onclick="SignIn()">Submit</button>
+        </div>
+    </div>
+
+    <div class="menu" id="menubar">
+
+        <ol class="menubar">
+            <li id="home" onclick="Home()">Home</li>
+            <li id="medicine-details" onclick="MedicineDetails()">Medicine Details</li>
+            <li id="purchase" onclick="Purchase()">Purchase</li>
+            <li id="cancel" onclick="Cancel()">Cancel</li>
+            <li id="top-up" onclick="TopUp()">Top Up</li>
+            <li id="show-balance"onclick="ShowBalance()">Show Balance</li>
+            <li id="order-history" onclick="OrderHistory()">Order History</li>
+            <li id="logout" onclick="LogOut()">Logout</li>
+        </ol>
+    </div>
+
+    <div id="home-tab">
+        <h1 id="welcome"></h1>
+    </div>
+
+    <div id="medicine-details-tab">
+        <button id="addbutton" onclick="Add()">Add</button>
+        <table id="medicine-table">
+        </table>
+        <div id="add">
+            <h1 id="med-heading">Add Details</h1>
+            <input type="text" id="med-name" placeholder="Medicine Name"><br>
+            <input type="number" id="med-price" placeholder="Medicine Price"><br>
+            <input type="number" id="med-quantity" placeholder="Quantity"><br>
+            <input type="date" id="med-exp-date"><br>
+            <button id="med-button" id="submit1" onclick="ShowAdd()">Submit</button>
+        </div>
+
+        <div id="edit">
+            <h1 id="edit-heading">Edit Details</h1>
+            <input type="text" id="edit-name" placeholder="Medicine Name"><br>
+            <input type="number" id="edit-price" placeholder="Medicine Price"><br>
+            <input type="number" id="edit-quantity" placeholder="Quantity"><br>
+            <input type="date" id="edit-exp-date"><br>
+            <button id="edit-button"id="submit2" onclick="ShowEdit()">Submit</button>
+        </div>
+    </div>
+
+    <div id="purchase-tab">
+        <table id="purchase-table">
+        </table>
+    </div>
+
+    <div id="cancel-tab">
+        <table id="cancel-table">
+        </table>
+    </div>
+
+    <div id="top-up-tab">
+        <input type="text" id="topup" placeholder="Deposit"><br>
+        <button id="topupbutton" onclick="Deposit()">Deposit</button>
+    </div>
+
+    <div id="show-balance-tab">
+        <h1 id="balance"></h1>
+    </div>
+   
+    <div id="order-history-tab">
+        <table id="order-history-table">
+        </table>
+    </div>
+    <div id="logout-tab">
+        <h2 id="log-out">Do you need to logout?</h2>
+        <button id="yes" onclick="Yes()">Yes</button>
+        <button id="no" onclick="No()">No</button>
+    </div>
+
+    <script type="text/javascript" src="../Online Medical Store/TypeScript/index.js"></script>
+</body>
+</html>
