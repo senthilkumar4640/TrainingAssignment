@@ -1,0 +1,101 @@
+body
+{
+    background-color: gray;
+}
+
+.loginpage
+{
+    width:80%;
+    height: 100%;
+    margin: 15% 25% 15% 25%;
+}
+.left
+{
+    background-color: rgb(158, 43, 43);
+    color: white;
+    padding: 30px;
+    width: 20%;
+    min-width:fit-content;
+    height: 320px;
+    float: left;
+    
+}
+.sync-logo
+{
+    width: 10em;
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+
+#hello
+{
+    font-size: x-large;
+}
+
+.right
+{
+    background-color: white;
+    padding: 40px;
+    width: 20%;
+    height: 300px;
+    float: left;
+}
+
+i
+{
+    padding:5px;
+}
+
+#facebook
+{
+    background-color: rgb(0, 0, 164);
+    padding: 5px;
+    font-size: 15px;
+}
+#google
+{
+    background-color: rgb(228, 90, 15);
+    padding: 5px;
+    font-size: 15px;
+}
+
+#twitter
+{
+    background-color: rgb(33, 214, 220);
+    padding: 5px;
+    font-size: 15px;
+}
+
+.button
+{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.logintext
+{
+    color: rgb(170, 8, 8);
+}
+
+.forgotpwd
+{
+    color: rgb(170, 8, 8);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.username
+{
+    padding: 5px;
+}
+
+.password
+{
+    padding: 5px;
+}

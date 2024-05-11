@@ -1,0 +1,48 @@
+.image1
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.image2
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.image3
+{
+    width: 300px;
+    height: 200px;
+    border: 3px solid grey;
+    padding: 5px;
+}
+
+.image4
+{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 5px black;
+}
+
+div
+{
+    float: left;
+    margin-left: 50px;
+}
+
+div p
+{
+    font-size: 25px;
+}
+
+.tomato
+{
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    bottom: 70px;
+    left: 10px;
+}
