@@ -1,0 +1,300 @@
+body
+{
+    font-family: sans-serif;
+}
+
+.menubar
+{
+    display: flex;
+    list-style-type: none;
+    width: 80%;
+    cursor: pointer;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px gray;
+    color: black;
+    background-color: rgb(238, 118, 7);
+}
+ 
+.menubar li
+{
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+#sign-in-up
+{
+    display: flex;
+    width: 400px;
+    cursor: pointer;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 4px gray;
+}
+
+#signup,#signin
+{
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+#sign-up, #sign-in
+{
+    width: 400px;
+    cursor: pointer;
+    margin: 0 auto;
+    justify-content: center;
+
+    
+}
+
+#sign-in input
+{
+    width: 380px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#sign-up input
+{
+    width: 380px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#sign-up button 
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#sign-in button
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+
+}
+
+#sign-up button:hover
+{
+    background-color: gray;
+}
+
+#sign-in button:hover
+{
+    background-color: gray;
+}
+
+#home-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#recharge-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#recharge-tab input
+{
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#recharge-tab button
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#recharge-tab button:hover
+{
+    background-color: gray;
+}
+
+#show-balance-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#logout-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#logout-tab button
+{
+    padding: 6px;
+    width: 110px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#logout-tab button:hover
+{
+    background-color: gray;
+}
+
+table,th,tr,td
+{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#submit{
+   align-items: center;
+   margin-left: 7px;
+   margin-top: 10px;
+}
+
+#image
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 180px;
+    border: none;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    box-shadow: 0px 0px 4px black;
+}
+
+#home-table,#home-table tr,#home-table th,#home-table td
+{
+    margin-top: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 30px;
+    border: none;
+    align-items: center;
+    
+}
+
+#product-details-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+#product-details-tab input
+{
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#product-details-tab button
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#product-details-tab button:hover
+{
+    background-color: gray;
+}
+
+#product-details-tab img 
+{
+    width: 200px;
+    height: 200px;
+}
+
+.div3{
+    box-shadow: 0px 0px 4px;
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.div1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.div2{}
+
+.div1 button{
+    width: 30px;
+}
+
+#purchase-tab
+{
+   
+    width: 80%;
+   
+}
+
+#price{
+    float: right;
+}
+
+#name{
+    float: left;
+}
+
+#purchase-tab
+{
+    float: left;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+     margin-left: 30px;
+}
+
+
+#purchase-tab button
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#purchase-tab button:hover
+{
+    background-color: gray;
+}
+

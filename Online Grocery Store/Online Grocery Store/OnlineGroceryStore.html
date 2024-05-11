@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <title>Online Grocery Store</title>
+<head>
+    <link rel="stylesheet" href="../Online Grocery Store/StyleSheet/OnlineGroceryStore.css">
+</head>
+<body>
+<div class="class" id="homepage">
+    <div id="sign-in-up">
+        <div id="signup">
+            <p onclick="SignUp()">SIGN UP</p>
+        </div>
+        <div id="signin">
+            <p onclick="SignIn()">SIGN IN</p>
+        </div>
+    </div>
+    <form class="signup" id="sign-up" enctype="multipart/form-data">
+        <h2 id="signup-heading">User Registration</h2>
+        <input type="text" id="name" name="name" class="input" placeholder="Name"> <br>
+        <input type="email" id="email" name="email" class="input" placeholder="Email"> <br>
+        <input type="password" id="pwd" name="pwd" class="input" placeholder="Password"> <br>
+        <input type="text" id="phone" name="phone" class="input" placeholder="Phone Number"> <br>
+        <input type="file" name="images" id="images">
+        <input type="text" id="address" name="address" class="input" placeholder="Address"> <br>
+        <input type="submit" value="SUBMIT" id="submit">
+    </form>
+
+    <div class="signin" id="sign-in">
+        <h2 id="signin-heading">User Login</h2>
+        <input type="email" id="email1" name="email1" class="input" placeholder="Email" value="senthil@gmail.com"> <br>
+        <input type="password" id="pwd1" name="pwd1" class="input" placeholder="Password" value="11111"> <br>
+        <button onclick="SignInSubmit()">SIGN IN</button>
+    </div>
+</div>
+
+ <!-- MenuBar -->
+ <div class="menu" id="menubars">
+    <ol class="menubar">
+        <li id="home" onclick="Home()">HOME</li>
+        <li id="product-details" onclick="ProductDetails()">PRODUCT DETAILS</li>
+        <li id="purchase" onclick="Purchase()">PURCHASE</li>
+        <li id="cart-item" onclick="ShowCart()">CART ITEM</li>
+        <li id="order-history" onclick="OrderHistory()">ORDER HISTORY</li>
+        <li id="recharge" onclick="Recharge()">RECHARGE</li>
+        <li id="show-balance" onclick="ShowBalance()">SHOW BALANCE</li>
+        <li id="logout" onclick="LogOut()">LOGOUT</li>
+    </ol>
+</div>
+
+<div id="home-tab">
+    <table id="home-table"></table>
+</div>
+
+<div id="recharge-tab">
+    <h2>Enter the amount </h2>
+    <input type="number" id="recharge-amount" placeholder="Amount"><br>
+    <button id="rechargebutton" onclick="Deposit()">Submit</button>
+</div>
+
+<div id="show-balance-tab">
+    <h2 id="balance"></h2>
+</div>
+
+<div id="logout-tab">
+    <h2 id="log-out">Do you need to logout?</h2>
+    <button id="yes" onclick="Yes()">Yes</button>
+    <button id="no" onclick="No()">No</button>
+</div>
+
+<div id="product-details-tab">
+    <button id="product" onclick="AddButton()">ADD</button>
+    <form action="" id="product-form">
+        <table id="product-table"></table>
+        <div id="add">
+            <h1 id="product-heading-add">Add / Edit Details</h1>
+            <input type="text" id="product-name" placeholder="Product Name"><br>
+            <input type="text" id="product-quantity" placeholder="Product Quantity"><br>
+            <input type="text" id="product-price" placeholder="Product Price"><br>
+            <input type="date" id="product-purchase-date" ><br>
+            <input type="date" id="product-expiry-date"><br>
+            <form action="" enctype="multipart/form-data">
+                <input type="file" name="images" id="productimage">
+            </form><br>
+            <input type="submit" value="submit">
+        </div>
+<!--        
+    </form>
+    <form action="" id="edit-form"  enctype="multipart/form-data" id="form">
+    <div id="edit">
+        <h1 id="product-heading-edit">Edit Details</h1>
+        <input type="text" id="edit-product-name" placeholder="Product Name"><br>
+            <input type="text" id="edit-product-quantity" placeholder="Product Quantity"><br>
+            <input type="text" id="edit-product-price" placeholder="Product Price"><br>
+            <input type="date" id="edit-product-purchase-date" placeholder="Purchase date"><br>
+            <input type="date" id="edit-product-expiryd-date" placeholder="Expiry date"><br>
+            <form action="" enctype="multipart/form-data">
+                <input type="file" name="images" id="edit-productimage">
+            </form><br>
+            <input type="submit" value="submit">
+    </div>
+</form> -->
+</div>
+
+<div id="purchase-tab">
+</div>
+
+<div id="cart-item-tab">
+        
+    <table id="cart-table">
+        <tr>
+            <thead>
+                <th>Name</th>
+                <th>Count</th>
+                <th>Price</th>
+                <th>Remove</th>
+            </thead>
+            <tbody id="cart-table-body">
+
+            </tbody>
+        </tr>
+     </table>
+     <button onclick="buy()" class="cartbutton">Buy</button>
+</div>
+
+<div id="order-history-tab">
+    
+</div>
+
+
+
+
+
+
+    <script type="text/javascript" src="../Online Grocery Store/TypeScript/OnlineGroceryStore.js"></script>
+</body>
+</html>
