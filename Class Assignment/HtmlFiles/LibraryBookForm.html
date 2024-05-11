@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Library Book Form</title>
+<head>
+    <link rel="stylesheet" href="../CssFiles/LibraryBookForm.css">
+</head>
+<body>
+    <div class="menu-bar" >
+        <div class="logo">
+            <img src="../Images/images.png" alt="Syncfusion" id="img" width="50px">
+        </div>
+        <div class="portal">
+            <p id="word-portal">Library  Portal</p>
+        </div>
+        <div class="books">
+            <p id="word-books">Books</p>
+        </div>
+    </div>
+    <div class="main-bar" id="main-bar">
+        <h2 id="heading">Add New Book</h2>
+        <label for="category">Category</label>
+        <select name="category" id="category">
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+        </select><br>
+        <label for="book">Book</label>
+        <input type="text" id="book" name="book">
+        <label for="mailId" id="validate-book" style="color: red;visibility: hidden;">Invalid</label><br>
+        <label for="author-email">Author Email</label>
+        <input type="text" id="author-email" name="author-email">
+        <label for="mailId" id="validate-mail" style="color: red;visibility: hidden;">Invalid</label><br>
+        <label for="author-name">Author Name</label>
+        <input type="text" id="author-name" name="author-name">
+        <label for="mailId" id="validate-name" style="color: red;visibility: hidden;">Invalid</label><br>
+        <label for="published">Published</label>
+        <input type="text" id="published" name="published">
+        <label for="mailId" id="validate-published" style="color: red;visibility: hidden;">Invalid</label><br>
+        <label for="price">Price</label>
+        <input type="text" id="price" name="price"><br>
+        <button id="button" onclick="TotalValidation()">Save</button>
+        <button id="button">Cancel</button>
+        <button id="button" onclick="ShowHide()">Show</button>
+    </div>
+   
+
+    <div id="output-page">
+        <h2 id="heading1">Add New Book</h2>
+        <label for="category">Category</label>
+        <span id="category-out">/span><br>
+
+        <label for="book">Book</label>
+        <span id="book-out">1</span><br>
+     
+        <label for="author-email">Author Email</label>
+        <span id="email-out">1</span><br>
+       
+        <label for="author-name">Author Name</label>
+        <span id="name-out">1</span><br>
+      
+        <label for="published">Published</label>
+        <span id="published-out">1</span><br>
+       
+        <label for="price">Price</label>
+        <span id="price-out">1</span><br>
+        <button id="button" onclick="Back()">Back</button>
+         
+    </div>
+
+    <div class="footer">
+        <p id="footer"></p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="../JSFiles/LibraryBookForm.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <title>Form Validation</title>
+    <head>
+        
+    </head>
+    <body>
+        <div style="display: block;" id="mainform">
+            <form >
+                <fieldset>
+                    <h1 style="text-align:center">Login Form</h1>
+                </fieldset>
+                <br><br>
+                <label for="FirstName">Name</label>
+                <input type="text" placeholder="FirstName" name="FirstName" id="FirstName">
+
+                <input type="text" placeholder="LastName" name="LastName" id="LastName">
+                <br><br>
+                <label for="mailId">Email</label>
+                <input type="email" placeholder="Email" name="mailId" id="mailId">
+                <label for="mailId" id="mail1" style="color: red;visibility: hidden;">Invalid mailId</label>
+                <br><br>
+                <label for="Phone">Phone Number</label>
+                <input type="text" placeholder="10-digit Number" name="Phone" id="phone">
+                <label for="Phone"><b style="color: red;visibility: hidden;" id="numcheck">Invalid Number</b> </label>
+                <br><br>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" name="password" id="password">
+                <label for="password" id="pass1" style="color: red;visibility: hidden;">Inavlid Password</label>
+                <br>
+                <p>Gender</p>
+                <input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label><br>
+                <input type="radio" name="gender" id="female" value="Female"><label for="female">Female</label><br>
+                <input type="radio" name="gender" id="others" value="Not wish to Disclose"><label for="others">Not wish to Disclose</label><br>
+                <br>
+                <label for="add">Address:</label><br>
+                <textarea name="address" id="add" cols="30" rows="5"></textarea>
+                <br><br>
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" name="DOB" id="dob">
+                <br><br>
+                <label for="time">Time</label><br>
+                <input type="time" name="time" id="time">
+                <br><br>
+                <label >Language</label><br>
+                <input type="checkbox" name="language[]" id="tamil" value="tamil"><label for="tamil">Tamil</label><br>
+                <input type="checkbox" name="language[]" id="english" value="english"><label for="english">English</label><br>
+                <input type="checkbox" name="language[]" id="french" value="french"><label for="french">French</label><br>
+                <br><br>
+                <label for="intrest">Select your field of intrest:</label>
+                <br>
+                <select name="intrest" id="intrest" multiple size="3">
+                    <option value="Music">Music</option>
+                    <option value="Cycling">Cycling</option>
+                    <option value="Batmiton">Batmiton</option>
+                    <option value="Singing">Singing</option>
+                </select>
+                <br><br>
+                <label for="photo">Upload your Photo</label><br>
+                <input type="file" id="photo" name="photo"><br>
+                <br>
+                <input type="button" name="button" id="button" value="SUBMIT" onclick="TotalValidation()">
+                <input type="button" value="RESET">
+            </form>
+        </div>
+
+        <div id="table" style="display: none;">
+        <table border="2">
+            <tr>
+                <th>USER DETAILS</th>
+            </tr>
+            <tr>
+                <th>FIRSTNAME</th>
+                <td><span id="fname"></span> </td>
+            </tr>
+            <tr>
+                <th>LASTNAME</th>
+                <td><span id="lname"></span></td>
+            </tr>
+            <tr>
+                <th>EMAIL ID</th>
+                <td><span id="mail2"></span></td>
+            </tr>
+            <tr>
+                <th>PHONE NUMBER</th>
+                <td><span id="Phone2"></span></td>
+            </tr>
+            <tr>
+                <th>PASSWORD</th>
+                <td><span id="password2"></span></td>
+            </tr>
+            <tr>
+                <th>GENDER</th>
+                <td><span id="gender2"></span></td>
+            </tr>
+            <tr>
+                <th>CURRENT ADDRESS</th>
+                <td><span id="caddress"></span></td>
+            </tr>
+            <tr>
+                <th>DATE OF BIRTH</th>
+                <td><span id="dob2"></span></td>
+            </tr>
+            <tr>
+                <th>TIME</th>
+                <td><span id="time2"></span></td>
+            </tr>
+            <tr>
+                <th>LANGUAGE</th>
+                <td><span id="language2"></span></td>
+            </tr>
+            <tr>
+                <th>FIELD OF INTEREST</th>
+                <td><span id="Interest2"></span></td>
+            </tr>
+            <tr>
+                <th>UPLOAD YOUR PICTURE</th>
+                <td><img src=" " alt="can't display image" height="100"  width="100"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="../JSFiles/Form.js"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+body
+{
+    font-family: sans-serif;
+    background-image:linear-gradient( #ffc0cb, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1
+{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.calculator
+{
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.474);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px gray;
+    text-align: center;
+}
+
+.input
+{
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.button
+{
+    width: 80%;
+    margin-left: 40px;
+}
+
+#symbol
+{
+    padding: 11.5px;
+}
+
+button
+{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+button:hover
+{
+    background-color: gray;
+}

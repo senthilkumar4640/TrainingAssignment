@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title>Calculator</title>
+<head>
+   <link rel="stylesheet" href="../CssFiles/Calculator.css">
+</head>
+<body>
+    <div class="calculator">
+       <h1>CALCULATOR</h1>
+       <input type="text" class="input" id="result" readonly>
+       <div class="button">
+        <button class="operations" onclick="Append('+')" id="symbol">+</button>
+        <button class="operations" onclick="Append('-')" id="symbol">-</button>
+        <button class="operations" onclick="Append('*')" id="symbol">*</button>
+        <button class="operations" onclick="Append('/')" id="symbol">/</button>
+        <button class="operations" onclick="Append('.')" id="symbol">.</button>
+        <button class="operations" onclick="Calculate('=')" id="symbol">=</button>
+        <button class="operations" onclick="Append('1')">1</button>
+        <button class="operations" onclick="Append('2')">2</button>
+        <button class="operations" onclick="Append('3')">3</button>
+       
+        <button class="operations" onclick="Append('4')">4</button>
+        <button class="operations" onclick="Append('5')">5</button>
+        <button class="operations" onclick="Append('6')">6</button>
+       
+        <button class="operations" onclick="Append('7')">7</button>
+        <button class="operations" onclick="Append('8')">8</button>
+        <button class="operations" onclick="Append('9')">9</button>
+        
+        <button class="operations" onclick="Append('0')">0</button>
+        
+      
+        <button class="operations" onclick="clearValue('C')">C</button>
+    </div> 
+
+    </div>
+    <!-- adding script file -->
+    <script src="../JSFiles/Calculator.js"></script>    
+</body>
+</html>

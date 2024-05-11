@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <title>Calculator</title>
+<head>
+   <link rel="stylesheet" href="../CssFiles/MiniCalculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>MINI CALCULATOR</h1>
+        <input type="text" class="input" id="input1">
+        <input type="text" class="input" id="input2">
+        <div class="button">
+            <button class="operations" onclick="addition('+')">+</button>
+            <button class="operations" onclick="subtraction('-')">-</button>
+            <button class="operations" onclick="multiplication('*')">*</button>
+            <button class="operations" onclick="division('/')">/</button>
+            <button class="operations" onclick="clearValue()">C</button>
+        </div>
+        <br>
+        <input type="text" class="input" id="result" readonly>
+    </div>
+    <!-- adding script file -->
+    <script src="../JSFiles/MiniCalculator.js"></script>    
+</body>
+</html>

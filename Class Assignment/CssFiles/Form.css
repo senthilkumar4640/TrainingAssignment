@@ -1,0 +1,43 @@
+.container
+{
+    width:80%;
+    border: 2px solid black; 
+    border-width: 5px; 
+    border-style:double;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.heading1
+{
+    width: 79%;
+    padding: 3%; 
+    border: black; 
+    border-width: 2px; 
+    border-style: solid;  
+    text-align: center;
+    margin-left: 32px;
+}
+
+.forminput
+{
+    border: 2px solid black;
+}
+
+input[type="text"], [type="password"], [type="email"],[type="date"]
+{
+    width: 40%;
+    padding: 10px;
+}
+
+label
+{
+    font-size: 1.5em;
+}
+
+.tableinput
+{
+    width: 85%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
