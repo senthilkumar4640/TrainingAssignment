@@ -1,0 +1,393 @@
+body
+{
+    width: 100%;
+}
+.maintext
+{
+    text-align: center;
+    width: 100%;
+}
+
+.form
+{
+    background-color: rgb(215, 244, 252);
+    padding: 15em;
+    height: 35em;
+    padding-top: 40px;
+}
+
+.text1
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 32px;
+    width: 35%;
+    text-align: center;
+    font-weight: bolder;
+    padding-left: 30%;
+}
+
+.text2
+{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #283A5E;
+    font-weight: bolder;
+    width: 35%;
+    padding-left: 30%;
+}
+
+.contact-sales h3
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.contact-sales p
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 12px;
+}
+
+.contact-sales
+{
+    background-color: white;
+    width: 23%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px gray;
+    padding: 2em;
+    margin: 35px 0 0 20px;
+    margin: 50px 50px;
+    margin-top: 10px;
+}
+
+#contact-sales
+{
+  padding-right: 5px;
+}
+
+.technical-support h3
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.technical-support p
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 12px;
+}
+
+.technical-support
+{
+    background-color: white;
+    width: 23%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px gray;
+    padding: 2em;
+    margin: 35px 0 0 20px;
+    margin: 50px 50px;
+    margin-top: 10px;
+} 
+
+.chat-with-us h3
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.chat-with-us p
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 12px;
+}
+
+.chat-with-us
+{
+    background-color: white;
+    width: 23%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px gray;
+    padding: 2em;
+    margin: 35px 0 0 20px;
+    margin: 50px 50px;
+    margin-top: 10px;
+   
+}
+
+#redirect
+{
+    color: orangered;
+}
+
+.send-ur-msg h3
+{
+    padding-top: 50px;
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.send-ur-msg label
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 12px;
+}
+
+.send-ur-msg
+{
+    background-color: white;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 7em;
+    margin: 35px 0 0 20px;
+    padding-left: 10%;
+    padding-right: 7%;
+    float: right;
+    margin: 50px 50px;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+#name
+{
+    text-align: left;
+}
+
+.send-ur-msg p
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 12px;
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+#submit
+{
+    width: 80%;
+    color: white;
+    background-color: orangered;
+    font-family: sans-serif;
+    border: 2px solid orangered;
+    border-radius: 2px;
+}
+
+#field,textarea
+{
+    width: 80%;
+}
+
+.send-ur-msg input
+{
+    align-items: center;
+}
+.location
+{
+    background-color: white;
+    height: 48em;
+}
+.location h1
+{
+    font-family: sans-serif;
+    color: #18294c;
+    text-align: center;
+    padding: 2em;
+}
+
+.one
+{
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+    float: left;
+    margin-left: 21em;
+}
+
+#morrisville-usa
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.location pre
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 10px;
+}
+
+.img-right
+{
+    float: right;
+}
+
+#hq-morrisville-usa
+{
+    padding: 5px;
+}
+
+.two
+{
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+    float: left;
+    margin-left: 5em;
+}
+
+#complex-chennai
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-right
+{
+    float: right;
+}
+
+#eymard-complex-chennai
+{
+    padding: 5px;
+}
+
+.three
+{
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+    float: left;
+    margin-left: 21em;
+    margin-top: 7em;
+}
+
+#kisumu-kenya
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-right
+{
+    float: right;
+}
+
+#kisumu-kenya
+{
+    padding: 5px;
+}
+
+#kenya
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.four
+{
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+    float: right;
+    margin-right: 40em;
+    margin-top: 7em;
+    padding-right: 2em;
+}
+
+#mathura-complex-chennai
+{
+    font-family: sans-serif;
+    color: #18294c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-right
+{
+    float: right;
+}
+
+#mathura-complex-chennai
+{
+    padding: 5px;
+}
+
+.three-four
+{
+    margin-top: 15px;
+}
+
+footer
+{
+    padding-top: 5em;
+    background-color: rgb(226, 232, 247);
+}
+#gdpr
+{
+    border-radius: 200%;
+    margin-left: 10px;
+    width: 65px;
+}
+.images
+{
+    margin-left: 20%;
+    margin-right:23% ;
+}
+
+#app-store
+{
+    float: right;
+}
+
+#play-store
+{
+    float: right;
+    margin-right: 15px;
+}
+
+.list
+{
+    background-color: rgb(226, 232, 247);
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #283A5E;
+    float: left;
+    margin-right: 5em;
+}
+
+.list-head
+{
+    font-weight: bolder;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#product
+{
+    margin-left: 18%;
+}
