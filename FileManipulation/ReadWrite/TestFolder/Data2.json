@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Senthil",
+    "FatherName": "Ranganathan",
+    "StudentGender": 1,
+    "DOB": "2002-03-08T00:00:00",
+    "TotalMark": 450
+  },
+  {
+    "Name": "Bhuvana",
+    "FatherName": "Krishna",
+    "StudentGender": 2,
+    "DOB": "2002-07-16T00:00:00",
+    "TotalMark": 500
+  },
+  {
+    "Name": "Meena",
+    "FatherName": "Ranganathan",
+    "StudentGender": 2,
+    "DOB": "1976-12-05T00:00:00",
+    "TotalMark": 460
+  }
+]
