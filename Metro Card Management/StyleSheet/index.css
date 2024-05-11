@@ -1,0 +1,202 @@
+body
+{
+    font-family: sans-serif;
+}
+
+.menubar
+{
+    display: flex;
+    list-style-type: none;
+    border: 2px solid black;
+    width: 80%;
+    cursor: pointer;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+ 
+.menubar li
+{
+    margin: auto;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+#sign-in-up
+{
+    display: flex;
+    width: 400px;
+    cursor: pointer;
+    margin: 0 auto;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#signup,#signin
+{
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#sign-up, #sign-in
+{
+    width: 400px;
+    cursor: pointer;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#sign-in input
+{
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#sign-up input
+{
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#sign-up button 
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#sign-in button
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#sign-up button:hover
+{
+    background-color: gray;
+}
+
+#sign-in button:hover
+{
+    background-color: gray;
+}
+
+#home-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#travel-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#travel-tab input
+{
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#travel-tab button
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#travel-tab button:hover
+{
+    background-color: gray;
+}
+
+#recharge-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#recharge-tab input
+{
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#recharge-tab button
+{
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#recharge-tab button:hover
+{
+    background-color: gray;
+}
+
+#travel-history-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#travel-history-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#show-balance-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#logout-tab
+{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#logout-tab button
+{
+    padding: 6px;
+    width: 110px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#logout-tab button:hover
+{
+    background-color: gray;
+}
+
+

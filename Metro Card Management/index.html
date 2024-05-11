@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <title>Metro Card Management</title>
+    <head>
+        <link rel="stylesheet" href="../Metro Card Management/StyleSheet/index.css">
+    </head>
+    <body>
+        <div class="index" id="homepage">
+            <div id="sign-in-up">
+                <div id="signup">
+                    <p onclick="SignUp()">Sign Up</p>
+                </div>
+                <div id="signin">
+                    <p onclick="SignIn()">Sign In</p>
+                </div><br>
+            </div>
+            <div class="signup" id="sign-up">
+                <h2 id="signup-heading">User Registration</h2>
+    
+                <input type="text" id="name" name="name" class="input" placeholder="Name"> <br>
+    
+                <input type="text" id="phn" name="phn" class="input" placeholder="Phone Number"> <br>
+    
+                <input type="password" id="pwd" name="pwd" class="input"  placeholder="Password"> <br>
+    
+                <input type="password" id="cnfpwd" name="cnfpwd" class="input"  placeholder="Confirm Password"> <br>
+    
+                <button id="submit" name="submit" class="button" onclick="">Submit</button>
+            </div>
+            <div class="signin" id="sign-in">
+                <h2 id="signin-heading">User Login</h2>
+                <br>
+                 <input type="text" id="phn1" name="phn" class="input" placeholder="Phone Number"> <br>
+               
+                <input type="password" id="pwd1" name="pwd" class="input" placeholder="Password"> <br>
+
+                <button id="submit" name="submit" class="button" onclick="SignIn()">Sign In</button>
+            </div>
+        </div>
+
+        <!-- MenuBar -->
+        <div class="menu" id="menubars">
+            <ol class="menubar">
+                <li id="home" onclick="Home()">Home</li>
+                <li id="travel" onclick="Travel()">Travel</li>
+                <li id="travel" onclick="Cancel()">Cancel</li>
+                <li id="recharge" onclick="Recharge()">Recharge</li>
+                <li id="travel-history" onclick="TravelHistory()">Travel History</li>
+                <li id="show-balance" onclick="ShowBalance()">Show Balance</li>
+                <li id="logout"onclick="LogOut()">LogOut</li>
+            </ol>
+        </div>
+
+        <div id="home-tab">
+            <h2 id="welcome"></h2>
+        </div>
+
+        <div id="travel-tab">
+            <button id="addtravel" onclick="">Add</button>
+            <table id="travel-table">
+            </table> 
+        </div>
+
+        <div id="cancel-tab">
+            <table id="cancel-table">
+            </table> 
+        </div>
+
+        <div id="recharge-tab">
+            <h2>Enter the amount </h2>
+            <input type="number" id="recharge-amount" placeholder="Amount"><br>
+            <button id="rechargebutton" onclick="Deposit()">Submit</button>
+        </div>
+
+        <div id="travel-history-tab">
+            <table id="travel-table">
+            </table>
+        </div>
+
+        <div id="show-balance-tab">
+            <h2 id="balance"></h2>
+        </div>
+
+        <div id="logout-tab">
+            <h2 id="log-out">Do you need to logout?</h2>
+            <button id="yes" onclick="Yes()">Yes</button>
+            <button id="no" onclick="No()">No</button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="../Metro Card Management/TypeScript/index.js"></script>
+    </body>
+</html>
