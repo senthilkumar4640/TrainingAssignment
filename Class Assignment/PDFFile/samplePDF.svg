@@ -1,0 +1,116 @@
+<?xml version="1.0" standalone="no"?>
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="680" height="880" text-rendering="geometricPrecision" viewBox="0 0 816 1055" style="margin:0 auto;__background:url('verizon-skin.jpg') no-repeat;">
+	<defs>
+		<style>
+			text{font-family:Century Gothic;fill:#000;font-size:14.7px;}
+			.name{fill:#000;font-size:48px; font-family:Century Gothic;}
+			.address, .date{fill:#999;font-size:14.7px;font-family:Century Gothic;}
+			.line{stroke:#fcc749;stroke-width:7px; }
+			.heading{fill:#000;font-size:16px;font-weight:bold;}
+			.summary-text{fill:#000;font-size:14.7px;font-family:Century Gothic;}
+			.subheading{fill:#000;font-weight:bold;}
+			.disc{fill:#333;}
+			.fbold{font-weight:bold;}
+		</style>
+	</defs>
+	
+	<text x="63" y="89" class="fbold name" textLength="230">MADISON</text>
+	<text x="312" y="89" class="name fbold">MEYERS</text>
+
+	<text x="64" y="122" text-anchor="start">
+		<tspan class="address" textLength="554">SAN FRANCISCO, CA (555)432-1000 MADISON-EXAMPLE@EXAMPLE.COM</tspan>
+	</text>
+	<line x1="68" y1="150" x2="748" y2="150" class="line" />
+	<text x="64" y="190" class="heading" textLength="120">PROFESSIONAL</text>
+	<text x="64" y="207" class="heading" textLength="85">SUMMARY</text>
+	<text x="250" y="191" class="summary-text">
+		<tspan textLength="457">Focused Sales Consultant well-known for providing exciting</tspan>
+		<tspan x="250" y="216" textLength="463">product demonstrations and convincing leads to purchase.</tspan>
+		<tspan x="250" y="240" textLength="482">Detailed and quick-paced and a true team player. Pursuing a</tspan>
+		<tspan x="250" y="264" textLength="476">new sales-driven role where hard work and dedication will be</tspan>
+		<tspan x="250" y="287" textLength="108">highly valued.</tspan>
+
+	</text>
+
+	<text x="64" y="332" class="heading" textLength="48">SKILLS</text>
+
+	<circle cx="269" cy="328" r="3" class="disc"/>
+	<circle cx="269" cy="352" r="3" class="disc"/>
+	<circle cx="269" cy="401" r="3" class="disc"/>
+	<circle cx="269" cy="425" r="3" class="disc"/>
+	<circle cx="520" cy="328" r="3" class="disc"/>
+	<circle cx="520" cy="328" r="3" class="disc"/>
+	<circle cx="520" cy="376" r="3" class="disc"/>
+	<circle cx="520" cy="400" r="3" class="disc"/>
+	<text x="281" y="333">
+		<tspan textLength="161">Sales and marketing</tspan>
+		<tspan x="281" dy="24" textLength="160">Product and service</tspan>
+		<tspan x="281" dy="24" textLength="91">knowledge</tspan>
+		<tspan x="281" dy="24" textLength="124">Demonstrations</tspan>
+		<tspan x="281" dy="24" textLength="155">Payment processing</tspan>
+	</text>
+
+	<text x="531" y="333">
+		<tspan textLength="138">Customer service</tspan>
+		<tspan x="531" dy="24" textLength="119">Sales reporting</tspan>
+		<tspan x="531" dy="24" textLength="143">Trusted key holder</tspan>
+		<tspan x="531" dy="24" textLength="201">Strategic sales knowledge</tspan>
+		
+	</text>
+
+	<text x="64" y="471" class="heading" textLength="123">WORK HISTORY</text>
+
+	<text x="250" y="475" class="date" textLength="187">JANUARY 2018-CURRENT</text>
+
+	<text x="250" y="498" class="fbold" textLength="124">Sales Consultant</text>
+	<text x="380" y="498">
+		<tspan> | Verizon Wireless</tspan>
+		<tspan> | San Francisco, CA</tspan>
+	</text>
+
+	<circle cx="269" cy="518" r="3" class="disc"/>
+	<circle cx="269" cy="565" r="3" class="disc" />
+	<circle cx="269" cy="637" r="3" class="disc" />
+	
+	<text x="310" y="522">
+		<tspan x="280" dy="0" textLength="465">Processed credit and debit card payments to complete the</tspan>
+		<tspan x="280" dy="25" textLength="188">purchasing experience.</tspan>
+		<tspan x="280" dy="24" textLength="437">Identified prospects' needs and developed appropriate</tspan>
+		<tspan x="280" dy="24" textLength="454">responses along with information on products and services</tspan>
+		<tspan x="280" dy="24" textLength="182">that would be suitable.</tspan>
+		<tspan x="280" dy="24" textLength="470">Provided pricing information to customers regarding specific</tspan>
+		<tspan x="280" dy="24" textLength="75">products.</tspan>
+		
+	</text>
+
+	<text x="250" y="704" class="date" textLength="222">AUGUST 2016-FEBRUARY 2018</text>
+	<text x="250" y="728" class="fbold" textLength="158">Sales Representative</text>
+	<text x="414" y="728">
+		<tspan> | Nike Inc</tspan>
+		<tspan> | San Francisco, CA</tspan>
+	</text>
+
+	<circle cx="269" cy="748" r="3" class="disc" />
+	<circle cx="269" cy="819" r="3" class="disc" />
+	<circle cx="269" cy="867" r="3" class="disc" />
+
+	<text x="280" y="753">
+		<tspan textLength="436">Identified prospects' needs and developed appropriate</tspan>
+		<tspan x="281" dy="24" textLength="434">responses along with information on fitting products and</tspan>
+		<tspan x="281" dy="24" textLength="69">services.</tspan>
+		<tspan x="281" dy="24" textLength="397">Responded to customer concerns with friendly and</tspan>
+		<tspan x="281" dy="24" textLength="190">knowledgeable service.</tspan>
+		<tspan x="281" dy="24" textLength="407">Increased profits through effective sales training and</tspan>
+		<tspan x="281" dy="24" textLength="246">troubleshooting profit loss areas.</tspan>
+	</text>
+
+	<text x="64" y="940" class="heading" textLength="96">EDUCATION</text>
+
+	<text x="251" y="941" class="date">2017</text>
+
+	<text x="251" y="966">
+		<tspan class="fbold" textLength="134">Associate of Arts:</tspan>
+		<tspan x="386" dy="0" textLength="175">Business Management</tspan>
+		<tspan x="251" dy="24" textLength="352">San Francisco City College, San Francisco, CA</tspan>
+	</text>
+</svg>
